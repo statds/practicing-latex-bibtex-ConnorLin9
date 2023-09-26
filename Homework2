@@ -1,14 +1,16 @@
+Certainly! Here's your LaTeX document with the "Data Science.jpeg" image inserted using the provided permalink:
+
+```latex
 \documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}  % For including images
 
 \begin{document}
 
 % Making title
 \title{Preparing for a Data Science Internship}
-
 \author{Thomas Lin}
 Jun Yan
 Department of Statistics, University of Connecticut
-
 \maketitle
 
 \begin{abstract}
@@ -16,13 +18,10 @@ Securing a data science internship is a crucial step towards building a successf
 \end{abstract}
 
 \section{Introduction}
-
 A data science internship can be a transformative experience for anyone aspiring to work in this dynamic field. This paper outlines key steps and strategies to ensure you are well-prepared for a data science internship. Section~\ref{sec:skills} discusses essential skills, Section~\ref{sec:resume} provides tips for crafting an impressive resume, Section~\ref{sec:interview} covers interview preparation, and Section~\ref{sec:conclusion} summarizes the key takeaways.
 
 \section{Developing Essential Skills} \label{sec:skills}
-
 To excel in a data science internship, it's essential to possess a strong foundation in key skills. These skills include:
-
 \begin{itemize}
   \item **Programming**: Proficiency in languages such as Python and R is crucial for data manipulation and analysis \cite{stanton2019}.
   \item **Statistics and Mathematics**: A solid understanding of statistics, linear algebra, and calculus is necessary for data modeling \cite{alpaydin2010}.
@@ -32,9 +31,7 @@ To excel in a data science internship, it's essential to possess a strong founda
 \end{itemize}
 
 \section{Crafting an Impressive Resume} \label{sec:resume}
-
 Your resume is often the first impression potential employers will have of you. Consider the following tips when crafting your data science internship resume:
-
 \begin{itemize}
   \item **Highlight Relevant Projects**: Showcase data science projects you've completed, emphasizing the skills and technologies used \cite{stanton2019}.
   \item **Quantify Achievements**: Use metrics to quantify your impact in previous roles or projects.
@@ -43,9 +40,7 @@ Your resume is often the first impression potential employers will have of you. 
 \end{itemize}
 
 \section{Preparing for Interviews} \label{sec:interview}
-
 Interviews are a critical part of the internship selection process. Here's how to prepare effectively:
-
 \begin{itemize}
   \item **Practice Coding**: Be ready for technical interviews with coding challenges and data analysis problems \cite{alpaydin2010}.
   \item **Review Fundamentals**: Brush up on key data science concepts and algorithms.
@@ -54,22 +49,25 @@ Interviews are a critical part of the internship selection process. Here's how t
 \end{itemize}
 
 \section{Conclusion} \label{sec:conclusion}
-
 A data science internship can be a pivotal step in your career journey. By developing essential skills, crafting an impressive resume, and preparing thoroughly for interviews, you can increase your chances of securing a rewarding internship opportunity.
 
 \appendix
-
 \section{Appendix}
-
 \subsection{Sample Interview Questions}
-
 Here are some sample data science interview questions to help you prepare:
-
 \begin{enumerate}
   \item Explain how you would create a churn graph and what it could mean for a company.
   \item How would you handle missing data in a dataset?
   \item Describe a challenging data science project you worked on and how you overcame obstacles.
 \end{enumerate}
+
+% Include the image
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{https://github.com/statds/practicing-latex-bibtex-ConnorLin9/blob/a9bc2fdd42f0b278d093c0efbb9a952fa16b378a/Data%20Science.jpeg}
+  \caption{Data Science Image}
+  \label{fig:data-science-image}
+\end{figure}
 
 % Include the table from table.tex
 \input{table}
