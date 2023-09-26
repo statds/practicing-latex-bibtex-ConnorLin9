@@ -12,23 +12,20 @@ Department of Statistics, University of Connecticut
 \maketitle
 
 \begin{abstract}
-Securing a data science internship is a crucial step towards building a successful career in the field of data science. This paper provides valuable insights and guidance on how to prepare
-effectively for a data science internship opportunity.
+Securing a data science internship is a crucial step towards building a successful career in the field of data science. This paper provides valuable insights and guidance on how to prepare effectively for a data science internship opportunity.
 \end{abstract}
 
 \section{Introduction}
 
-A data science internship can be a transformative experience for anyone aspiring to work in this dynamic field. This paper outlines key steps and strategies to ensure you are well-prepared
-for a data science internship. Section~\ref{sec:skills} discusses essential skills, Section~\ref{sec:resume} provides tips for crafting an impressive resume, Section~\ref{sec:interview}
-covers interview preparation, and Section~\ref{sec:conclusion} summarizes the key takeaways.
+A data science internship can be a transformative experience for anyone aspiring to work in this dynamic field. This paper outlines key steps and strategies to ensure you are well-prepared for a data science internship. Section~\ref{sec:skills} discusses essential skills, Section~\ref{sec:resume} provides tips for crafting an impressive resume, Section~\ref{sec:interview} covers interview preparation, and Section~\ref{sec:conclusion} summarizes the key takeaways.
 
 \section{Developing Essential Skills} \label{sec:skills}
 
 To excel in a data science internship, it's essential to possess a strong foundation in key skills. These skills include:
 
 \begin{itemize}
-  \item **Programming**: Proficiency in languages such as Python and R is crucial for data manipulation and analysis.
-  \item **Statistics and Mathematics**: A solid understanding of statistics, linear algebra, and calculus is necessary for data modeling.
+  \item **Programming**: Proficiency in languages such as Python and R is crucial for data manipulation and analysis \cite{stanton2019}.
+  \item **Statistics and Mathematics**: A solid understanding of statistics, linear algebra, and calculus is necessary for data modeling \cite{alpaydin2010}.
   \item **Machine Learning**: Familiarity with machine learning algorithms and frameworks is highly valuable.
   \item **Data Visualization**: The ability to create meaningful visualizations using tools like Matplotlib or Tableau is important.
   \item **Database Management**: Understanding SQL and NoSQL databases is essential for working with data.
@@ -39,7 +36,7 @@ To excel in a data science internship, it's essential to possess a strong founda
 Your resume is often the first impression potential employers will have of you. Consider the following tips when crafting your data science internship resume:
 
 \begin{itemize}
-  \item **Highlight Relevant Projects**: Showcase data science projects you've completed, emphasizing the skills and technologies used. If applicable, mention your research project.
+  \item **Highlight Relevant Projects**: Showcase data science projects you've completed, emphasizing the skills and technologies used \cite{stanton2019}.
   \item **Quantify Achievements**: Use metrics to quantify your impact in previous roles or projects.
   \item **Include Relevant Courses**: List relevant coursework or online certifications in data science.
   \item **Customize for Each Application**: Tailor your resume to match the specific requirements of each internship opportunity.
@@ -50,7 +47,7 @@ Your resume is often the first impression potential employers will have of you. 
 Interviews are a critical part of the internship selection process. Here's how to prepare effectively:
 
 \begin{itemize}
-  \item **Practice Coding**: Be ready for technical interviews with coding challenges and data analysis problems.
+  \item **Practice Coding**: Be ready for technical interviews with coding challenges and data analysis problems \cite{alpaydin2010}.
   \item **Review Fundamentals**: Brush up on key data science concepts and algorithms.
   \item **Behavioral Questions**: Prepare responses to behavioral questions that demonstrate your teamwork and problem-solving skills.
   \item **Research the Company**: Understand the company's culture, values, and recent projects.
@@ -58,8 +55,7 @@ Interviews are a critical part of the internship selection process. Here's how t
 
 \section{Conclusion} \label{sec:conclusion}
 
-A data science internship can be a pivotal step in your career journey. By developing essential skills, crafting an impressive resume, and preparing thoroughly for interviews, you can
-increase your chances of securing a rewarding internship opportunity.
+A data science internship can be a pivotal step in your career journey. By developing essential skills, crafting an impressive resume, and preparing thoroughly for interviews, you can increase your chances of securing a rewarding internship opportunity.
 
 \appendix
 
@@ -74,6 +70,9 @@ Here are some sample data science interview questions to help you prepare:
   \item How would you handle missing data in a dataset?
   \item Describe a challenging data science project you worked on and how you overcame obstacles.
 \end{enumerate}
+
+% Include the table from table.tex
+\input{table}
 
 \bibliographystyle{asa}
 \bibliography{citations}
