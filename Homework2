@@ -1,12 +1,9 @@
-Certainly! Here's your LaTeX document with the "Data Science.jpeg" image inserted using the provided permalink:
-
-```latex
 \documentclass[12pt, letterpaper]{article}
-\usepackage{graphicx}  % For including images
+\usepackage{graphicx}
+\usepackage{amsmath}
 
 \begin{document}
 
-% Making title
 \title{Preparing for a Data Science Internship}
 \author{Thomas Lin}
 Jun Yan
@@ -61,16 +58,18 @@ Here are some sample data science interview questions to help you prepare:
   \item Describe a challenging data science project you worked on and how you overcame obstacles.
 \end{enumerate}
 
-% Include the image
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\textwidth]{https://github.com/statds/practicing-latex-bibtex-ConnorLin9/blob/a9bc2fdd42f0b278d093c0efbb9a952fa16b378a/Data%20Science.jpeg}
-  \caption{Data Science Image}
-  \label{fig:data-science-image}
-\end{figure}
+1. In-line Math Expressions:
+   - The probability of event A, denoted as \(P(A)\), is an essential concept in statistics.
+   - The formula for the mean (\(\mu\)) of a dataset is given by \(\mu = \frac{1}{n} \sum_{i=1}^{n} x_i\), where \(n\) is the number of data points and \(x_i\) represents each data point.
 
-% Include the table from table.tex
-\input{table}
+2. In-display Equations (with references):
+   - The formula for the variance (\(\sigma^2\)) of a dataset is given by:
+     \[ \sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2 \]
+     This equation is often used in statistical analysis. (Eq. \ref{eq:variance})
+
+   - The linear regression equation is defined as:
+     \[ y = mx + b \]
+     Where \(y\) is the dependent variable, \(x\) is the independent variable, \(m\) is the slope, and \(b\) is the intercept. (Eq. \ref{eq:linear-regression})
 
 \bibliographystyle{asa}
 \bibliography{citations}
